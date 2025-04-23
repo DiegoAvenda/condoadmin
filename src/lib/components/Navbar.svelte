@@ -32,7 +32,7 @@
 				<li><a href="/calendar">Clendar</a></li>
 			</ul>
 		</div>
-		<a class="btn btn-ghost text-xl">daisyUI</a>
+		<a href="/" class="btn btn-ghost text-xl">daisyUI</a>
 	</div>
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
@@ -50,6 +50,6 @@
 		</ul>
 	</div>
 	<div class="navbar-end">
-		<a class="btn">Button</a>
+		<a href="/api/oauth/google" class="btn">Login</a>
 	</div>
 </div>
