@@ -1,4 +1,5 @@
 <script>
+	let { data } = $props();
 </script>
 
 <div class="card card-border bg-base-100 w-96">
@@ -20,3 +21,15 @@
 		</form>
 	</div>
 </div>
+
+{#each data.news as newd}
+	<div class="card card-border bg-base-100 w-96">
+		<div class="card-body">
+			<h2 class="card-title">{newd.createdAt}</h2>
+			<p>{newd.post}</p>
+			<div class="card-actions justify-end">
+				<button class="btn btn-primary">Buy Now</button>
+			</div>
+		</div>
+	</div>
+{/each}
